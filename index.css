@@ -1,0 +1,34 @@
+#helpSection{
+  position: fixed;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  bottom: -150px;
+  right: 20px;
+}
+
+#helpButton {
+  width: 64px;
+  height: 64px;
+  background: aqua;
+  border-radius: 46px;
+  float: right;
+}
+
+#helpSection.vertTranslate {
+  bottom: 0px !important;
+}
+#canvasContainer {
+  min-width: 200px;
+  min-height: 125px;
+  margin: auto;
+  border-color: black;
+  border-width: medium;
+}
+
+#zdog-canvas{
+  display: inherit;
+  width: 100%;
+}
